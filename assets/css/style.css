@@ -1,0 +1,38 @@
+.variation-radios.lg-select input:disabled + label {
+    cursor: not-allowed !IMPORTANT;
+    opacity: 0.2;
+}
+ .variation-radios.lg-select input:disabled + label img {
+    cursor: not-allowed !IMPORTANT;
+
+}
+
+.single table.variations select, .single table.variations input[type='checkbox'], .product-lightbox.lightbox-content  table.variations select, .product-lightbox.lightbox-content table.variations input[type='checkbox'] {
+    display: none !IMPORTANT;
+}
+.variation-radios.lg-select .lg_label {
+
+    cursor: pointer;   
+	display:inline-block;
+	 margin: 5px;
+}
+.single table.variations td {
+    display: block; 
+}
+
+	.color_label img:hover{
+
+ cursor:pointer;
+}
+table.variations  label.color_label {
+ margin: 5px;
+	display:inline-block;
+	
+}
+label.lg_label.ld-switch-no-img {
+    vertical-align: middle;
+}
+.ld-style-1 img,.ld-style-1 ,label.lg_label.Active-cl.ld-style-1 span {border-radius: 50%;overflow: hidden;}
+label.lg_label.Active-cl span {
+	display: block;
+}
